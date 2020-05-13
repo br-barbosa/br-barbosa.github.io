@@ -1,5 +1,12 @@
+/* Soft style reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 a {
-  color: teal;
+  color: #23A6D5;
   text-decoration: none;
 }
 
@@ -8,14 +15,40 @@ a:hover {
 }
 
 body {
-  background-image: url("background-chalkboard.jpg");
+  /*background-image: url('../img/background-blackboard.jpg');
   background-size: 100vw 100vh;
+  background: linear-gradient(-45deg, #959DA5, #586069, #2F363D);*/
+  
   font-family: Arial, sans-serif;
-  height: 100vh;
 }
 
+/* If screen width >= 400px, load:*/
+@media (min-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+header {
+  align-items: flex-end;
+  background: linear-gradient(180deg,#23A6D5, #23AECE, #23B6C7, #23BEC0, #23C5B9, #23CDB2, #23D5AB);
+  background-size: 100vw;
+  display: flex;
+  height: 16em;
+  justify-content: space-between;
+}
+
+
 .menu{
-  background-color: white;
+  background-color: #fafafa;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.menu a {
+  padding: 0.5em 1em;
+  display: block;
 }
 
 .menu li {
@@ -27,9 +60,22 @@ body {
   justify-content: space-around;
 }
 
+.picture {
+  width: 16em;
+  height: auto;
+  justify: right;
+  border: 10px solid #eee;
+  border-radius: 130px;
+  margin: -8em 2em;
+}
+
+.presentation {
+  padding: 2em 2em;
+}
+
 .site-subtitle,
 .site-title {
-  color: whitesmoke;
+  color: #fafafa;
   text-align: center;
 }
 
