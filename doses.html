@@ -18,31 +18,36 @@
       </div>
     </header>
     <main class="body-content">
-      <h2>Current Projects</h2>
-      <a href="doses.html">Doses Calculator</a>
-      <h2>Education</h2>
-      <ul>
-        <li>Ph.D. in Mathematics</li>
-        <li>>> Oregon State University, 2020</li>
-        <li>M.S. in Applied Mathematics and Statistics</li>
-        <li>>> UFRN, Brazil, 2014</li>
-        <li>B.A. in Mathematics</li>
-        <li>>> UFRN, Brazil, 2014</li>
-      </ul>
-      <h2>Ph.D. Dissertation</h2>
-      <ul>
-        <li>
-          <a href="https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/08612v96n" target="new">
-            "Aggregate path coupling for the generalized Curie-Weiss model"
-          </a>
-        </li>
-        <li>
-          Advisor:
-          <a href="http://www.math.oregonstate.edu/~kovchegy/web/papers.html" target="new">
-            Yevgeniy Kovchegov
-          </a>
-        </li>
-      </ul>
+      <h2>Dose Calculator</h2>
+      <ul id="errors"></ul>
+      <form id="form">
+          <div class="">
+              <label for="dose">Prescription:</label>
+              <input id="dose" name="dose" type="number" placeholder="500" class="field">
+              <span>mg</span>
+          </div>
+          <div>
+            <select name="freq" id="freq">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <label for="feq">time(s) per day</label>
+          </div>
+          <div>
+            <label for="drug">Drug:</label>
+              <input id="drug" name="drug" type="number" placeholder="50" class="field">
+              <span>mg</span>
+          </div>
+          <div>
+            <label for="volume">in</label>
+              <input id="volume" name="volume" type="number" placeholder="5" class="campo">
+              <span>ml</span>
+          </div>
+
+          <button id="calculate" class="">Calculate</button>
+      </form>
+      <div id=result></div>
     </main>
     <footer class="footer">
       <a target="_blank" href="https://github.com/br-barbosa">
@@ -58,5 +63,6 @@
         <i class="fab fa-researchgate"></i>
       </a>
     </footer>
+    <script src="js/doses.js"></script>
   </body>
 </html>
