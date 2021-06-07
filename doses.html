@@ -23,31 +23,37 @@
       <form id="form">
           <div class="">
               <label for="dose">Prescription:</label>
-              <input id="dose" name="dose" type="number" placeholder="500" class="field">
+              <input id="dose" name="dose" type="number" class="field">
               <span>mg</span>
           </div>
           <div>
-            <select name="freq" id="freq">
+            <select name="freq" id="freq" class="field">
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
             </select>
-            <label for="feq">time(s) per day</label>
+            <label for="feq">time(s) per day, for</label> <input type="number" name="duration" id="duration" class="field field--small"> day(s).
           </div>
           <div>
             <label for="drug">Drug:</label>
-              <input id="drug" name="drug" type="number" placeholder="50" class="field">
+              <input id="drug" name="drug" type="number" class="field">
               <span>mg</span>
           </div>
           <div>
             <label for="volume">in</label>
-              <input id="volume" name="volume" type="number" placeholder="5" class="campo">
+              <input id="volume" name="volume" type="number" class="field field--medium">
               <span>ml</span>
           </div>
 
           <button id="calculate" class="">Calculate</button>
       </form>
-      <div id=result></div>
+      <div>
+        <div class="result"></div>
+        <div class="bottle"></div>
+      </div>
     </main>
     <footer class="footer">
       <a target="_blank" href="https://github.com/br-barbosa">

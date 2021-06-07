@@ -104,6 +104,42 @@ header {
   color: #23BEC0;
 }
 
+.field{
+	display: inline-block;
+  padding: 0.25em 0.25em;
+  line-height:140%;
+	width: 4em;
+	border: 1px solid #ccc;
+  text-align: center;
+}
+
+.field--small{
+  width: 1.5em;
+}
+
+.field--medium{
+  width: 2em;
+}
+
+.bottle{
+  position: relative;
+  text-align: center;
+}
+
+.bottle__img{
+  width: 25vw;
+  height:auto;
+}
+
+.bottle__volume{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Footer */
+
 .footer {
   display: flex;
   background-color: #EEE;
