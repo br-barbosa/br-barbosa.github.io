@@ -2,122 +2,59 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Welcome to My Machine Learning Journey
 
-[Link to another page](./another-page.html).
+Hi there! 👋 Welcome to my corner of the web, where I document my transition into Machine Learning Engineering.
 
-There should be whitespace between paragraphs.
+I'm **Bruno Barbosa**, a lifelong learner with a background in mathematics and a passion for solving real-world problems through data and technology. After years of teaching and coordinating courses, I decided to dive into the world of Machine Learning to explore the cutting edge of innovation and create impactful solutions.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+---
 
-# Header 1
+## What You’ll Find Here
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This site serves as both my journal and portfolio. Here’s what you can expect:
 
-## Header 2
+### 🔍 **[Journal](./journal.html)**
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+I document my learning process, sharing insights, challenges, and reflections as I progress through various Machine Learning topics and projects.
 
-### Header 3
+### 💻 **Projects**
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+Showcasing hands-on projects that I’ve built, with links to GitHub repositories and detailed explanations of the work behind each.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### 📚 **Resources**
 
-#### Header 4
+A growing collection of resources, tools, and courses that have been invaluable during my journey.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+---
 
-##### Header 5
+## My Roadmap
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+Here’s a high-level overview of my plan to become a Machine Learning Engineer:
 
-###### Header 6
+1. Build a solid foundation in programming, mathematics, and data preprocessing.
+2. Master key Machine Learning algorithms, frameworks, and tools.
+3. Develop and deploy real-world projects that demonstrate my skills.
+4. Specialize in areas like NLP, Computer Vision, or Time Series Analysis.
+5. Land my first role as a Machine Learning Engineer.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+You can follow my progress step by step in the Journal section.
 
-### There's a horizontal rule below this.
+---
 
-* * *
+## About Me
 
-### Here is an unordered list:
+- 📚 **Background**: I hold a Ph.D. in Probability Theory and have extensive experience in teaching and course development.
+- 🎯 **Goal**: Transition into Machine Learning Engineering within 1 year.
+- 💡 **Interests**: Problem-solving, mathematics, and creating meaningful data-driven solutions.
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+I’m excited to share this journey with you. Feel free to reach out, connect, or just say hi!
 
-### And an ordered list:
+---
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+## Get in Touch
 
-### And a nested list:
+- 💼 [LinkedIn](https://linkedin.com/in/blbarbosa)
+- 🖥️ [GitHub](https://github.com/br-barbosa)
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+Let’s connect and grow together! 🚀
