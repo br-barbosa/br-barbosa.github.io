@@ -14,7 +14,7 @@ I'm **Bruno Barbosa**, a lifelong learner with a background in mathematics and a
 
 This site serves as both my journal and portfolio. Here’s what you can expect:
 
-### 🔍 **[Journal](./journal.html)**
+### 🔍 **Journal**
 
 I document my learning process, sharing insights, challenges, and reflections as I progress through various Machine Learning topics and projects.
 
